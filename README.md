@@ -4,7 +4,7 @@ A curated list of awesome Bioinformatics tools.
 
 ----------------------------------------------------------------------------
 ## Awesome existing topics related to bioinformatics
-- [awesome-bioinformatics] (https://github.com/danielecook/Awesome-Bioinformatics): some informations on Bioinformatics.
+- [awesome-bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics): some informations on Bioinformatics.
 - [awesome-alternative-splicing](https://github.com/HussainAther/awesome-alternative-splicing): some programs for alternative splicing analysis.
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline): found the best pipeline workflow for your applications.
 - [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning): deep learning informations.
