@@ -52,7 +52,7 @@ Table of contents
   * [Specific workflow](#specific-workflow)
     + [Alternative splicing](#alternative-splicing)
     + [Community analysis](#community-analysis)
-  * [Bioinformatic analysis informations (Wikipedia links)](#bioinformatic-analysis-informations--wikipedia-links-)
+  * [Bioinformatic analysis informations](#bioinformatic-analysis-informations)
     + [Metagenomic](#metagenomic)
     + [Metatranscriptomic](#metatranscriptomic)
     + [Metabarcoding](#metabarcoding)
@@ -364,7 +364,7 @@ Table of contents
 
 -------------------------------------------------------------------------
 
-## Bioinformatic analysis informations (Wikipedia links)
+## Bioinformatic analysis informations
 
 ### Metagenomic
 
