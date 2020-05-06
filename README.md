@@ -3,6 +3,53 @@
 A curated list of awesome Bioinformatics tools.
 
 ----------------------------------------------------------------------------
+Table of contents
+- [Awesome Bioinfo-tools](#awesome-bioinfo-tools)
+  * [Awesome existing topics related to bioinformatics](#awesome-existing-topics-related-to-bioinformatics)
+  * [Suite tools](#suite-tools)
+  * [Quality analysis & trimming tools](#quality-analysis---trimming-tools)
+    + [quality analysis checking](#quality-analysis-checking)
+    + [trimming](#trimming)
+    + [read merger](#read-merger)
+    + [demultiplexing](#demultiplexing)
+  * [Multiviewer](#multiviewer)
+  * [Mapping tools](#mapping-tools)
+    + [mapping](#mapping)
+    + [splice-aligner](#splice-aligner)
+  * [Assembly tools](#assembly-tools)
+    + [Genome & Transcriptome assembly](#genome---transcriptome-assembly)
+    + [Metagenome & Metatranscriptome assembly](#metagenome---metatranscriptome-assembly)
+    + [Viewers](#viewers)
+    + [Correction tools](#correction-tools)
+  * [Variant calling & alternative splicing tools](#variant-calling---alternative-splicing-tools)
+    + [variant calling](#variant-calling)
+    + [Motif discovery](#motif-discovery)
+    + [Peak calling](#peak-calling)
+    + [Learning tools](#learning-tools)
+    + [Correction tools](#correction-tools-1)
+  * [Counting tools](#counting-tools)
+  * [Differential analysis tools](#differential-analysis-tools)
+    + [RNA-seq](#rna-seq)
+    + [Alternative-splicing](#alternative-splicing)
+    + [RIBO-seq](#ribo-seq)
+  * [Others](#others)
+    + [Exploration tools for RNA-seq and RIBO-seq](#exploration-tools-for-rna-seq-and-ribo-seq)
+    + [Network visualisation](#network-visualisation)
+    + [Interaction visualisation](#interaction-visualisation)
+    + [Annotations & pathway databases](#annotations---pathway-databases)
+  * [Bioinformatic analysis informations (Wikipedia links)](#bioinformatic-analysis-informations--wikipedia-links-)
+    + [Metagenomic](#metagenomic)
+    + [Metatranscriptomic](#metatranscriptomic)
+    + [Metabarcoding](#metabarcoding)
+    + [Alternative-splicing](#alternative-splicing-1)
+    + [Ribo-seq](#ribo-seq)
+    + [Merip-seq](#merip-seq)
+    + [mi-CLIP](#mi-clip)
+    + [Proteomics](#proteomics)
+    + [MASS-SPEC](#mass-spec)
+  * [Specific workflow or platform](#specific-workflow-or-platform)
+
+----------------------------------------------------------------------------
 ## Awesome existing topics related to bioinformatics
 - [awesome-bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics): some informations on Bioinformatics.
 - [awesome-alternative-splicing](https://github.com/HussainAther/awesome-alternative-splicing): some programs for alternative splicing analysis.
