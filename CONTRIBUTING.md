@@ -1,8 +1,10 @@
 # Contributing
 ------------------------------------------------
+
 Your contributions are always welcome!
+
 ------------------------------------------------
-##Guidelines
+## Guidelines
 
 - Add section if needed.
     - Add section description.
