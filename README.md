@@ -49,6 +49,9 @@ Table of contents
     + [Annotations tools](#annotations-tools)
     + [Ontology & Pathway databases](#ontology---pathway-databases)
     + [Metabarcoding databases](#metabarcoding-databases)
+  * [Specific workflow](#specific-workflow)
+    + [Alternative splicing](#alternative-splicing)
+    + [Community analysis](#community-analysis)
   * [Bioinformatic analysis informations (Wikipedia links)](#bioinformatic-analysis-informations--wikipedia-links-)
     + [Metagenomic](#metagenomic)
     + [Metatranscriptomic](#metatranscriptomic)
@@ -59,9 +62,6 @@ Table of contents
     + [mi-CLIP](#mi-clip)
     + [Proteomics](#proteomics)
     + [MASS-SPEC](#mass-spec)
-  * [Specific workflow](#specific-workflow)
-    + [Alternative splicing](#alternative-splicing)
-    + [Community analysis](#community-analysis)
 
 
 ----------------------------------------------------------------------------
