@@ -120,11 +120,13 @@ Table of contents
 
 ## Mapping tools
 
-### mapping
+### aligner
 
 - [BWA](https://github.com/lh3/bwa): BWA is a software package for mapping DNA sequences against a large reference genome, such as the human genome. 
 - [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml): Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.
 - [PANDASEQ](https://github.com/neufeld/pandaseq): PANDASEQ is a program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.
+- [MPscan](http://www.atgc-montpellier.fr/mpscan/): MPscan: index free mapping of multiple short reads on a genome
+- [DIAMOND](http://www.diamondsearch.org/index.php): DIAMOND is a sequence aligner for protein and translated DNA searches, designed for high performance analysis of big sequence data.
 
 ### splice-aligner
 
@@ -138,11 +140,12 @@ Table of contents
 
 ## Assembly tools
 
-### Genome & Transcriptome assembly
+### Genome & Transcriptome de novo assembly
 
 - [Velvet](https://www.ebi.ac.uk/~zerbino/velvet/): Sequence assembler for very short reads
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html): SPAdes – St. Petersburg genome assembler – is an assembly toolkit containing various assembly pipelines.
 - [Minia](https://github.com/GATB/minia): Minia is a short-read assembler based on a de Bruijn graph, capable of assembling a human genome on a desktop computer in a day.
+- [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki): Trinity assembles transcript sequences from Illumina RNA-Seq data.
 
 ### Metagenome & Metatranscriptome assembly
 
@@ -205,12 +208,13 @@ Table of contents
 - [Kallisto](https://pachterlab.github.io/kallisto/about): kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. 
 - [HTSeqCount](https://htseq.readthedocs.io/en/master/): Analysing high-throughput sequencing data with Python
 - [StringTie](https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual#top): Transcript assembly and quantification for RNA-Seq
+- [RSEM](https://github.com/deweylab/RSEM): RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. 
 
 [<small>[top↑]</small>](#)
 
 -------------------------------------------------------------------------
 
-## Differential analysis tools
+## Statistical analysis tools
 
 ### RNA-seq
 
@@ -219,6 +223,16 @@ Table of contents
 - [NBAMSeq](https://bioconductor.org/packages/release/bioc/html/NBAMSeq.html): NBAMSeq is a Bioconductor package for differential expression analysis based on negative binomial additive model.
 - [NOISeq](http://bioconductor.org/packages/release/bioc/html/NOISeq.html): Exploratory analysis and differential expression for RNA-seq data
 - [Sleuth](https://pachterlab.github.io/sleuth/about): sleuth is a program for analysis of RNA-Seq experiments for which transcript abundances have been quantified with kallisto. 
+
+### Metagenomics
+
+- [Metagenassist](http://www.metagenassist.ca/METAGENassist/faces/Home.jsp): A comprehensive web server for comparative metagenomics
+- [MG-RAST](https://www.mg-rast.org/): A Metagenomics Service for Analysis of Microbial Community Structure and Function.
+- [MEGAN](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/): Metagenome Analyzer - MEGAN6 is a comprehensive toolbox for interactively analyzing microbiome data. 
+
+### Metabarcoding | Community Ecology
+
+- [vegan](https://www.rdocumentation.org/packages/vegan/versions/2.4-2): Ordination methods, diversity analysis and other functions for community and vegetation ecologists.
 
 ### Alternative-splicing
 
@@ -234,6 +248,50 @@ Table of contents
 
 ------------------------------------------------------------------------
 
+## Phylogenomics
+
+### Aligner
+
+- [RAPPAS](http://www.atgc-montpellier.fr/RAPPAS/): RAPPAS: Rapid alignment-free phylogenetic identification of metagenomic sequences.
+- [Clustalw](https://www.genome.jp/tools-bin/clustalw): Multiple Sequence Alignment.
+- [MEGA](https://www.megasoftware.net/): Molecular Evolutionary Genetics Analysis.
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/): Multiple alignment program for amino acid or nucleotide sequences.
+- [MUSCLE](https://www.ebi.ac.uk/Tools/msa/muscle/): MUSCLE stands for MUltiple Sequence Comparison by Log- Expectation. 
+
+### Phylogenetic inference
+
+- [PhyML](http://www.atgc-montpellier.fr/phyml/): PhyML is a software package that uses modern statistical approaches to analyse alignments of nucleotide or amino acid sequences in a phylogenetic framework. 
+- [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/): RAxML - Randomized Axelerated Maximum Likelihood.
+- [FastTree](http://www.microbesonline.org/fasttree/): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.
+- [FastME](http://www.atgc-montpellier.fr/fastme/): FastME provides distance algorithms to infer phylogenies.
+- [MrBayes](http://nbisweden.github.io/MrBayes/): MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models.
+
+### Model test
+
+- [jModelTest2](https://github.com/ddarriba/jmodeltest2): jModelTest is a tool to carry out statistical selection of best-fit models of nucleotide substitution.
+- [ModelTest-NG](https://github.com/ddarriba/modeltest): ModelTest-NG is a tool for selecting the best-fit model of evolution for DNA and protein alignments.
+- [SMS](http://www.atgc-montpellier.fr/sms/): Smart Model Selection using likelihood-based criteria (e.g., AIC).
+
+### Visualization
+
+- [Aquapony](http://www.atgc-montpellier.fr/aquapony/): Visualization and interpretation of phylogeographic information on phylogenetic trees
+- [iTOL](https://itol.embl.de/): Interactive Tree Of Life is an online tool for the display, annotation and management of phylogenetic trees.
+- [ETE](http://etetoolkit.org/): A Python framework for the analysis and visualization of trees.
+- [Krona](https://github.com/marbl/Krona/wiki): Krona allows hierarchical data to be explored with zooming, multi-layered pie charts.
+
+### Tree comparison
+
+- [CompPhy](http://www.atgc-montpellier.fr/compphy/): A web-based collaborative platform for comparing phylogenies
+- [Phylo.io](https://phylo.io/): A web app and library for visualising and comparing phylogenetic trees.
+
+### Platform
+
+- [CIPRES](http://www.phylo.org/index.php): The CIPRES Science Gateway V. 3.3 is a public resource for inference of large phylogenetic trees. 
+
+[<small>[top↑]</small>](#)
+
+------------------------------------------------------------------------
+
 ## Others
 
 ### Exploration tools for RNA-seq and RIBO-seq
@@ -241,23 +299,36 @@ Table of contents
 - [RNA-Ribo Explorer (RRE)](http://www.atgc-montpellier.fr/rre/): RRE is an interactive, stand-alone, and graphical software for analysing, viewing and mining both transcriptome (typically RNA-seq) and translatome (typically Ribosome profiling or Ribo-seq) datasets.
 - [IGET](https://iget.c2b2.columbia.edu/): The Integrated Genomics Exploration Tools (IGET) website provides online access to a suite of tools for exploring biological pathways and DNA/RNA/protein regulatory elements associated with large-scale gene expression and protein behavior dynamics.
 
-### Network visualisation
+### Network & Interaction visualisation
 
 - [Gephi](https://gephi.org/): visualization and exploration software for all kinds of graphs and networks. 
 - [Cytoscape](https://cytoscape.org/): visualization of complex networks and integrating these with any type of attribute data. 
-
-### Interaction visualisation
-
 - [String](https://string-db.org/): Protein-Protein Interaction Networks Functional Enrichment Analysis
 
-### Annotations & pathway databases
+### Clustering & homology
+- [CD-HIT](http://weizhongli-lab.org/cd-hit/): CD-HIT is a very widely used program for clustering and comparing protein or nucleotide sequences.
+- [HMMER](http://hmmer.org/): HMMER is used for searching sequence databases for sequence homologs, and for making sequence alignments. 
+- [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html): The program structure is a free software package for using multi-locus genotype data to investigate population structure.
+
+### Annotations tools
+
+- [Trinotate](https://github.com/Trinotate/Trinotate.github.io/wiki): Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms. 
+- [gProfiler](https://biit.cs.ut.ee/gprofiler/gost): g:Profiler is a public web server for characterising and manipulating gene lists. 
+- [TransDecoder](https://github.com/TransDecoder/TransDecoder/wiki): TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.
+
+### Ontology & Pathway databases
 
 - [Gene Ontology](http://geneontology.org/): The Gene Ontology (GO) knowledgebase is the world’s largest source of information on the functions of genes.
-- [gProfiler](https://biit.cs.ut.ee/gprofiler/gost): g:Profiler is a public web server for characterising and manipulating gene lists. 
 - [KEGG](https://www.genome.jp/kegg/): KEGG is a database resource for understanding high-level functions and utilities of the biological system, such as the cell, the organism and the ecosystem, from molecular-level information, especially large-scale molecular datasets generated by genome sequencing and other high-throughput experimental technologies.
 - [DAVID](https://david.ncifcrf.gov/): Database for Annotation, Visualization and Integrated Discovery (DAVID).
 - [PANTHER](http://www.pantherdb.org/): Protein ANalysis THrough Evolutionary Relationships.
 - [RNAcentral](https://rnacentral.org/): The non-coding RNA sequence database
+
+### Metabarcoding databases
+
+- [Silva](https://www.arb-silva.de/): SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
+- [ITS2](http://its2.bioapps.biozentrum.uni-wuerzburg.de/): Internal transcribed spacer 2 (ITS2) ribosomal RNA Database 
+- [FunGuild](https://github.com/UMNFuN/FUNGuild): Over 13,000 fungal taxa now included in the database & functional annotation tools.
 
 [<small>[top↑]</small>](#)
 
@@ -309,7 +380,12 @@ Table of contents
 
 ## Specific workflow or platform
 
+### Alternative splicing
+
 - [KisSplice](http://kissplice.prabi.fr/training/): Training alternative splicing analysis with KisSplice & suite tools.
+
+### Community analysis
+
 - [QIIME2](https://qiime2.org/): QIIME 2™ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed.
 - [Mothur](https://mothur.org/): This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
 - [Vsearch](https://github.com/torognes/vsearch): Open source tool for metagenomics.
