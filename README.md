@@ -56,6 +56,7 @@ Table of contents
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline): found the best pipeline workflow for your applications.
 - [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning): deep learning informations.
 
+[<small>[top↑]</small>](#)
 ----------------------------------------------------------------------------
 ## Suite tools
 - [BBtools](https://jgi.doe.gov/data-and-tools/bbtools/): BBTools is a suite of fast, multithreaded bioinformatics tools designed for analysis of DNA and RNA sequence data. 
@@ -66,6 +67,7 @@ Table of contents
 - [GATK](https://gatk.broadinstitute.org/hc/en-us): A genomic analysis toolkit focused on variant discovery.
 - [EA-Utils](https://expressionanalysis.github.io/ea-utils/): Command-line tools for processing biological sequencing data. Barcode demultiplexing, adapter trimming, etc. Primarily written to support an Illumina based pipeline - but should work with any FASTQs.
 
+[<small>[top↑]</small>](#)
 ----------------------------------------------------------------------------
 ## Quality analysis & trimming tools
 ### quality analysis checking
@@ -91,10 +93,12 @@ Table of contents
 - [UMI-tools](https://github.com/CGATOxford/UMI-tools): This repository contains tools for dealing with Unique Molecular Identifiers (UMIs)/Random Molecular Tags (RMTs) and single cell RNA-Seq cell barcodes.
 - [NextGenSeqUtils](https://nextjournal.com/Murrell-Lab/demultiplexing-with-custom-barcoded-primers): Notebook for demultiplexing with custom barcoded primers.
 
+[<small>[top↑]</small>](#)
 ----------------------------------------------------------------------------
 ## Multiviewer
 - [MultiQC](https://multiqc.info/): Aggregate results from bioinformatics analyses across many samples into a single report.
 
+[<small>[top↑]</small>](#)
 ----------------------------------------------------------------------------
 ## Mapping tools
 ### mapping
@@ -107,6 +111,7 @@ Table of contents
 - [STAR](https://github.com/alexdobin/STAR): Spliced Transcripts Alignment to a Reference.
 - [CRAC](http://crac.gforge.inria.fr/): RNA-Seq mapping software that include the discovery of transcriptomic and genomic variants like splice junction, chimeric junction, SNVs, Indels in a single analysis step using a built-in error detection method enabling high precison and sensitivity.
 
+[<small>[top↑]</small>](#)
 ---------------------------------------------------------------------------
 ## Assembly tools
 ### Genome & Transcriptome assembly
@@ -127,6 +132,7 @@ Table of contents
 ### Correction tools
 - [rnaQUAST](http://cab.spbu.ru/software/rnaquast/): rnaQUAST is a software designed for quality evaluation and assessment of de novo transcriptome assemblies. 
 
+[<small>[top↑]</small>](#)
 ---------------------------------------------------------------------------
 ## Variant calling & alternative splicing tools
 ### variant calling
@@ -153,6 +159,7 @@ Table of contents
 ### Correction tools
 - [Portcullis](https://github.com/TGAC/portcullis): Portcullis stands for PORTable CULLing of Invalid Splice junctions from pre-aligned RNA-seq data. 
 
+[<small>[top↑]</small>](#)
 -------------------------------------------------------------------------
 ## Counting tools
 - [FeatureCounts](http://bioinf.wehi.edu.au/featureCounts/): counts mapped reads for genomic features such as genes, exons, promoter, gene bodies, genomic bins and chromosomal locations.
@@ -160,6 +167,7 @@ Table of contents
 - [HTSeqCount](https://htseq.readthedocs.io/en/master/): Analysing high-throughput sequencing data with Python
 - [StringTie](https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual#top): Transcript assembly and quantification for RNA-Seq
 
+[<small>[top↑]</small>](#)
 -------------------------------------------------------------------------
 ## Differential analysis tools
 ### RNA-seq
@@ -177,6 +185,7 @@ Table of contents
 - [Xtail](https://github.com/xryanglab/xtail): Genome-wide assessment of differential translations with ribosome profiling data.
 - [Anota2Seq](https://bioconductor.org/packages/release/bioc/html/anota2seq.html): Generally applicable transcriptome-wide analysis of translational efficiency using anota2seq.
 
+[<small>[top↑]</small>](#)
 ------------------------------------------------------------------------
 ## Others
 ### Exploration tools for RNA-seq and RIBO-seq
@@ -198,7 +207,7 @@ Table of contents
 - [PANTHER](http://www.pantherdb.org/): Protein ANalysis THrough Evolutionary Relationships.
 - [RNAcentral](https://rnacentral.org/): The non-coding RNA sequence database
 
-
+[<small>[top↑]</small>](#)
 -------------------------------------------------------------------------
 ## Bioinformatic analysis informations (Wikipedia links)
 ### Metagenomic
@@ -230,9 +239,12 @@ Table of contents
 - [Mass-spec for DNA](https://www.ncbi.nlm.nih.gov/pubmed/15829234)
 - [Mass-spec for RNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2442014/)
 
+[<small>[top↑]</small>](#)
 ----------------------------------------------------------------------------
 ## Specific workflow or platform
 - [KisSplice](http://kissplice.prabi.fr/training/): Training alternative splicing analysis with KisSplice & suite tools.
 - [QIIME2](https://qiime2.org/): QIIME 2™ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed.
 - [Mothur](https://mothur.org/): This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
 - [Vsearch](https://github.com/torognes/vsearch): Open source tool for metagenomics.
+
+[<small>[top↑]</small>](#)
