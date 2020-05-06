@@ -43,7 +43,7 @@ Table of contents
     + [Tree comparison](#tree-comparison)
     + [Platform](#platform)
   * [Others](#others)
-    + [Exploration tools for RNA-seq and RIBO-seq](#exploration-tools-for-rna-seq-and-ribo-seq)
+    + [Exploration tools](#exploration-tools)
     + [Network & Interaction visualisation](#network---interaction-visualisation)
     + [Clustering & homology](#clustering---homology)
     + [Annotations tools](#annotations-tools)
@@ -59,7 +59,7 @@ Table of contents
     + [mi-CLIP](#mi-clip)
     + [Proteomics](#proteomics)
     + [MASS-SPEC](#mass-spec)
-  * [Specific workflow or platform](#specific-workflow-or-platform)
+  * [Specific workflow](#specific-workflow)
     + [Alternative splicing](#alternative-splicing)
     + [Community analysis](#community-analysis)
 
@@ -308,7 +308,7 @@ Table of contents
 
 ## Others
 
-### Exploration tools for RNA-seq and RIBO-seq
+### Exploration tools
 
 - [RNA-Ribo Explorer (RRE)](http://www.atgc-montpellier.fr/rre/): RRE is an interactive, stand-alone, and graphical software for analysing, viewing and mining both transcriptome (typically RNA-seq) and translatome (typically Ribosome profiling or Ribo-seq) datasets.
 - [IGET](https://iget.c2b2.columbia.edu/): The Integrated Genomics Exploration Tools (IGET) website provides online access to a suite of tools for exploring biological pathways and DNA/RNA/protein regulatory elements associated with large-scale gene expression and protein behavior dynamics.
@@ -343,6 +343,22 @@ Table of contents
 - [Silva](https://www.arb-silva.de/): SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
 - [ITS2](http://its2.bioapps.biozentrum.uni-wuerzburg.de/): Internal transcribed spacer 2 (ITS2) ribosomal RNA Database 
 - [FunGuild](https://github.com/UMNFuN/FUNGuild): Over 13,000 fungal taxa now included in the database & functional annotation tools.
+
+[<small>[top↑]</small>](#)
+
+----------------------------------------------------------------------------
+
+## Specific workflow
+
+### Alternative splicing
+
+- [KisSplice](http://kissplice.prabi.fr/training/): Training alternative splicing analysis with KisSplice & suite tools.
+
+### Community analysis
+
+- [QIIME2](https://qiime2.org/): QIIME 2™ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed.
+- [Mothur](https://mothur.org/): This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
+- [Vsearch](https://github.com/torognes/vsearch): Open source tool for metagenomics.
 
 [<small>[top↑]</small>](#)
 
@@ -387,21 +403,5 @@ Table of contents
 - [Mass spectrometry in general](https://en.wikipedia.org/wiki/Mass_spectrometry)
 - [Mass-spec for DNA](https://www.ncbi.nlm.nih.gov/pubmed/15829234)
 - [Mass-spec for RNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2442014/)
-
-[<small>[top↑]</small>](#)
-
-----------------------------------------------------------------------------
-
-## Specific workflow or platform
-
-### Alternative splicing
-
-- [KisSplice](http://kissplice.prabi.fr/training/): Training alternative splicing analysis with KisSplice & suite tools.
-
-### Community analysis
-
-- [QIIME2](https://qiime2.org/): QIIME 2™ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed.
-- [Mothur](https://mothur.org/): This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
-- [Vsearch](https://github.com/torognes/vsearch): Open source tool for metagenomics.
 
 [<small>[top↑]</small>](#)
